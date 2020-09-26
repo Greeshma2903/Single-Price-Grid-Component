@@ -1,0 +1,108 @@
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  font-size: 1rem;
+}
+
+.container-main {
+  width: 60%;
+  margin: 40px auto 40px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* common padding */
+.head, .pricing, .features {
+  padding: 1.5rem 3rem;
+}
+
+/* ______________ header-container ________________ */
+.main-heading {
+  color: hsl(179, 62%, 43%);
+}
+
+.sub-heading {
+  color: #d2e603;
+}
+
+.head p {
+  color: #a6a6a4;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+/* ____________________ columns _______________________ */
+.columns {
+  display: flex;
+  color: #fff;
+}
+
+.columns p {
+  color: #e8e8e8;
+}
+
+.pricing, .features {
+  flex-basis: 50%;
+}
+
+/* ------------pricing----------------- */
+.pricing {
+  background-color: #3e978b;
+  border-radius: 0 0 0 5px;
+}
+
+.price {
+  color: #fff;
+  font-size: 2rem;
+  display: inline;
+}
+
+/* sign-up button */
+.btn-sign-up {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 2.5rem;
+  display: block;
+  background-color: #d2e603;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px #006a71;
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.btn-sign-up:hover {
+  background-color: #A4B302;
+}
+
+/* -------------features-------------------*/
+.features {
+  background-color: #2ec1ac;
+  border-radius: 0 0 5px 0;
+}
+
+.features dl {
+  color: #e8e8e8;
+  line-height: 1.5;
+}
+
+/* _____________________________MEDIA QUERY_______________________________ */
+@media(max-width:830px) {
+  .container-main {
+    width: 75%;
+  }
+
+  .columns {
+    display: block;
+  }
+
+  .pricing {
+    border-radius: 0;
+  }
+
+  .features {
+    border-radius: 0 0 5px 5px;
+  }
+}
